@@ -9,7 +9,7 @@ class HelloSpockSpec extends spock.lang.Specification {
 		
 		where:
 		name | length
-		"Spock" | 3    // result: Running cz.rozumim.HelloSpockSpec -> There are no tests to run.
-		//"Spock" | 5    // result: Running cz.rozumim.HelloSpockSpec -> Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+		"Spock" | 5    // result: Running cz.rozumim.HelloSpockSpec -> Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+		//"Spock" | 3    // result: Running cz.rozumim.HelloSpockSpec -> There are no tests to run.
 	}
 }
