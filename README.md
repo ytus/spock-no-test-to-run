@@ -1,6 +1,11 @@
-Example project with a bug I can't figure out. 
+## Example project with a bug I couldn't figure out. 
 
 Short version: When the specification written in Spock pass, everything is ok and I see the result. But when I make it fail, the specification is skipped (or the result is not reported).
+
+See the [solution](https://groups.google.com/forum/#!topic/spockframework/ttoNdB-DRU0): 
+
+> Looks like some Maven Surefire problem. Updating to the latest Surefire version (2.17) appears to fix the problem.
+
 
 ## Steps to reproduce
 
